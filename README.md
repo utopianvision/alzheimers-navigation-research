@@ -11,9 +11,9 @@ This repository contains my ongoing research project studying how Alzheimer’s 
 project_root/
 │
 ├── code/
-│   ├── eeg_theta_topomap.py
-│   ├── grid_pathology_timeline.py
-│   ├── grid_map_degradation.py
+│   ├── ad_vs_control_classification.ipynb
+│   ├── eeg_band_power_topomaps.ipynb
+│   ├── grid_cell_toroidal_attractor.py
 │   └── head_direction_ring_attractor.py
 │
 ├── docs/
@@ -28,13 +28,13 @@ project_root/
 
 ## Code
 
-- **[eeg_theta_topomap.py](./code/eeg_theta_topomap.py)**  
-  EEG analysis producing theta-band power topographic maps for control and Alzheimer’s groups.
+- **[ad_vs_control_classification.ipynb](./code/ad_vs_control_classification.ipynb)**  
+  Logistic regression classifier trained to distinguish Alzheimer's subjects from control subjects.
 
-- **[grid_pathology_timeline.py](./code/grid_pathology_timeline.py)**  
-  Continuous attractor model illustrating progressive Alzheimer’s pathology across disease stages.
+- **[eeg_band_power_topomaps.ipynb](./code/eeg_band_power_topomaps.ipynb)**  
+  EEG analysis producing band power topographic maps for control and Alzheimer’s groups.
 
-- **[grid_map_degradation.py](./code/grid_map_degradation.py)**  
+- **[grid_cell_toroidal_attractor.py](./code/grid_cell_toroidal_attractor.py)**  
   Simulation of grid-cell spatial map breakdown under increasing neuron loss.
 
 - **[head_direction_ring_attractor.py](./code/head_direction_ring_attractor.py)**  
